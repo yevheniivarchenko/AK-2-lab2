@@ -1,0 +1,4 @@
+/mnt/d/Education/V семестр/Архітектура комп'ютерів/Lab 2/project/build/CMakeFiles/rebuild_cache.dir
+/mnt/d/Education/V семестр/Архітектура комп'ютерів/Lab 2/project/build/CMakeFiles/edit_cache.dir
+/mnt/d/Education/V семестр/Архітектура комп'ютерів/Lab 2/project/build/CMakeFiles/triangleLib.dir
+/mnt/d/Education/V семестр/Архітектура комп'ютерів/Lab 2/project/build/CMakeFiles/triangle.dir
