@@ -1,17 +1,11 @@
 #include <iostream>
-using namespace std;
+#include "calculator.h"
 
-int main() {
-    int rows;
+int main()
+{
+  	Calculator calc;
 
-    cout << "Pascal's triangle!" << endl;
+  	std::cout << "calctest 2+2 =" << calc.Add(2, 2) << std::endl;
 
-    do {
-        cout << "Enter how many rows to print (at least 0): ";
-        cin >> rows;
-    } while(rows < 0);
-
-    print_pascals_triangle(rows);
-
-    return 0;
+	return 0;
 }

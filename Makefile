@@ -1,19 +1,19 @@
-CXX=g++
-CXXFLAGS=-g -Wall
+CC=g++
+CFLAGS=-g -Wall
 
 all: main
 
-main: main.o triangle.o
-	$(CXX) $(CXXFLAGS) main.o calculator.o -o main
+main: main.o calculator.o
+	$(CC) $(CFLAGS) main.o calculator.o -o main
 
 main.o: main.cpp
-	$(CXX) $(CXXFLAGS) -c $<
+	$(CC) $(CFLAGS) -c $<
 
-triangle.a: triangle.o
+calculator.a: calculator.o
 	$(AR) $(ARFLAGS) $@ $^
 
-triangle.o: triangle.cpp triangle.h
-	$(CXX) $(CXXFLAGS) -c $<
+calculator.o: calculator.cpp calculator.h
+	$(CC) $(CFLAGS) -c $<
 
 clean:
-	rm -rf main main.o triangle.a triangle.o
+	rm main *.o calculator.a

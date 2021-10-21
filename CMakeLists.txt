@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.8)
-project("project")
+project(project)
 
-set(BIN_NAME triangle)
-set(LIB_NAME triangleLib)
+set(BIN_NAME calculator)
+set(LIB_NAME calculatorLib)
 
 file(
     GLOB SRC_FILES
@@ -11,8 +11,8 @@ file(
 
 file(
     GLOB LIB_FILES
-    triangle.cpp
-    triangle.h
+    calculator.cpp
+    calculator.h
 )
 
 add_executable(${BIN_NAME} ${SRC_FILES})
